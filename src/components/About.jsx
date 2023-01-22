@@ -2,8 +2,17 @@ import React from 'react'
 import './About.css'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import SpotifyPlayer from 'react-spotify-player';
+
+// import <Spotify></Spotify>
 const About = () => {
     AOS.init();
+    const size = {
+        width: 300,
+        height: 100,
+      };
+      const view = 'list'; // or 'coverart'
+      const theme = 'black'; // or 'white'
   return (
 
     <div className='jkkk'>
@@ -21,8 +30,16 @@ const About = () => {
         </div>
         <div className="right_container">
 
-            
-            
+        {/* <Spotify link="https://open.spotify.com/album/0fUy6IdLHDpGNwavIlhEsl?si=mTiITmlHQpaGkoivGTv8Jw" /> */}
+        <div className="spot">
+        <SpotifyPlayer className="lk"
+  uri="spotify:track:2LEF1A8DOZ9wRYikWgVlZ8"
+  size={size}
+  view={view}
+  theme={theme}
+/>
+    </div>
+
         </div>
     </div>
   )

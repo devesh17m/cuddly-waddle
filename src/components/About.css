@@ -1,6 +1,4 @@
-.about2{
-    /* margin-left: 30%; */
-}
+
 p{
     color: rgb(170, 166, 224);
     text-align: left;
@@ -60,6 +58,12 @@ p{
     /* flex-direction: column; */
     margin-bottom: 10%;
 }
+.spot{
+    margin-left: -20%;
+    display: none;
+    /* height: 40px; */
+}
+
 @media screen and (max-width: 480px) {
     .heading_about{
         font-size: 2rem;
@@ -68,6 +72,12 @@ p{
     .content_about{
         /* width: 30%; */
         width: 300px;
+    }
+    .spot{
+        margin-left: 45px;
+        margin-top: 5%;
+        visibility: visible;
+        display: block;
     }
     .jkkk{
         display: flex;
