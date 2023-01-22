@@ -1,0 +1,174 @@
+.name{
+    
+  /* background: #fc7474; 
+  background: -webkit-linear-gradient(to right, #e04a4a, #9932cc); 
+  background: linear-gradient(to right, #ff0000, #9932cc); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent; */
+  
+  background: #5452e0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #5452e0, #54a3f8); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #5452e0, #54a3f8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+    font-weight: 600;
+    font-size: 3.2rem;
+    margin-left: 20%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+/* .right{
+    width: 400px;
+    height: 400px;
+} */
+.name_top{
+    background: #5452e0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5452e0, #54a3f8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5452e0, #54a3f8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-left: -32%;
+}
+.right{
+    margin-top: -30px;
+}
+.connect{
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    border-color: rgb(217, 239, 241);
+    height: 50px;
+    width: 150px;
+    margin-left: -25%;
+    margin-top: 5%;
+    background-color: rgb(51, 65, 176);
+    box-shadow: inset 0 0 0 0 #090909;
+  -webkit-transition: ease-out 0.4s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+}
+.k{
+    color: aliceblue;
+    position: absolute;
+    /* margin-left: -20%; */
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%;
+    margin-left: 2%;
+}
+.github{
+    /* position: absolute; */
+    display: flex;
+    margin-bottom: 20px;
+    /* margin-top: -70%; */
+    /* margin-right: 70%; */
+}
+.linkedin{
+    margin-bottom: 20px;
+}
+.line{
+    position: absolute;
+    width: 300px;
+    height: 1px;
+    background-color: aliceblue;
+    transform: rotate(90deg);
+    left: -140px;
+    top:275px
+}
+.connect:hover{
+    box-shadow: inset 0 100px 0 0 #000000;
+    color: white;
+    border-color: aliceblue;
+}
+*{
+    background-color: rgb(0, 0, 0);
+}
+.about{
+    color: rgb(170, 166, 224);
+    width: 60%;
+    margin-left: 23%;
+    text-align: left;
+    margin-top: 4%;
+}
+.parent{
+    display: flex;
+}
+.left{
+    margin-top: 8%;
+}
+a:visited{
+    color: aliceblue;
+    /* background-color: #54a3f8; */
+}
+@media screen and (max-width: 480px) {
+    .right{
+        /* display: none; */
+        margin-top: 400px;
+        margin-left: -340px;
+
+        /* height: 30px;
+        width: 30px;  */
+    }
+    .parent{
+        display: flex;
+        float: column;
+    }
+    .lot{
+        margin-top: 300px;
+        height: 50px;
+        width: 10px;
+    }
+    .k{
+        color: aliceblue;
+    }
+    .jk{
+        text-decoration: none;
+        /* color: aliceblue; */
+        /* background-color: #54a3f8; */
+    }
+    a:visited{
+        color: aliceblue;
+        /* background-color: #54a3f8; */
+    }
+    .name{
+        font-size: 1.8rem;
+        /* text-align: center; */
+        margin-left: 10%;
+    }
+    .name_top{
+        font-size: 1rem;
+        margin-left: -37%;
+    }
+    .about{
+        margin-top: 5%;
+        text-align: left;
+        margin-left: 19%;
+        /* position: absolute; */
+    }
+    .left{
+        margin-top: 25%;
+    }
+    .connect{
+        color: rgb(255, 255, 255);
+        font-weight: 700;
+        border-color: rgb(217, 239, 241);
+        height: 50px;
+        width: 150px;
+        margin-left: -20%;
+        margin-top: 5%;
+        background-color: rgb(51, 65, 176);
+        box-shadow: inset 0 0 0 0 #090909;
+      -webkit-transition: ease-out 0.4s;
+      -moz-transition: ease-out 0.4s;
+      transition: ease-out 0.4s;
+    }
+    .connect:hover{
+        box-shadow: inset 0 100px 0 0 #000000;
+        color: white;
+        border-color: aliceblue;
+    }
+    .line{
+        top:280px;
+    }
+  }
