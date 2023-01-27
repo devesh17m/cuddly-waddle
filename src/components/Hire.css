@@ -1,0 +1,43 @@
+.hire_btn{
+    /* background-color: aqua;
+     */
+     color: aliceblue;
+     background-color: rgb(4, 28, 210);
+    box-shadow: inset 0 0 0 0 #201f1f;
+  -webkit-transition: ease-out 2.9s;
+  -moz-transition: ease-out 0.4s;
+  transition: ease-out 0.4s;
+    height: 50px;
+    width: 130px;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    /* border: 0px; */
+    border-color: aliceblue;
+}
+.hire_btn:hover{
+    box-shadow: inset 0 100px 0 0 #000000;
+    color: white;
+    border-color: aliceblue;
+}
+.heading_hire{
+    color: aliceblue;
+    font-weight: 100;
+    
+}
+.hire{
+    color: rgb(26, 81, 129);
+    letter-spacing: 1px;
+    font-size: 50px;
+}
+.desc_hire{
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    .desc_hire{
+        font-size: 20px;
+        width: 240px;
+    }
+}

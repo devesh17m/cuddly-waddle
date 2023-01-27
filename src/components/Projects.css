@@ -1,0 +1,202 @@
+.project_img_one{
+    height: 250px;
+    width: 500px;
+    margin-top: 15%;
+    margin-left: 20%;
+    /* z-index: -1; */
+    filter: grayscale(100%);
+}
+.project_img_one:hover{
+    filter: grayscale(0%);
+    cursor:pointer;
+}
+.project_heading{
+    background: #fc7474; 
+  background: -webkit-linear-gradient(to right, #e04a4a, #9932cc); 
+  background: linear-gradient(to right, #ff0000, #9932cc); 
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: 700;
+  
+  font-size: 30px;
+  margin-left: 40%;
+  /* margin-right: auto; */
+}
+.right_project{
+    margin-top: 5%;
+    width: 100%;   
+    /* align-items: flex-end; */
+}
+.gi{
+    margin-top: 4px;
+    margin-left: -18px;
+}
+.gi:hover{
+    transform: scale(1.5);
+}
+.parent_project{
+    display: flex;
+}
+
+.project_name{
+    background: #5452e0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5452e0, #54a3f8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5452e0, #54a3f8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -12%;
+}
+.project_name2{
+    background: #5452e0; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #5452e0, #54a3f8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5452e0, #54a3f8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -15%;
+}
+.tect_used{
+    color: aliceblue;
+    display: flex;
+    margin-left: 30%;
+    /* margin-right: auto; */
+}
+.tect_used2{
+    color: aliceblue;
+    display: flex;
+    margin-left: 20%;
+    /* margin-right: auto; */
+}
+.tect_name{
+    margin-left: 6%;
+    list-style: none;
+}
+.top_name_project{
+    font-size: 13px;
+    /* margin-left: 43%; */
+    /* width: 100%; */
+}
+.about_project{
+    background-color: rgb(0, 54, 101);
+    text-shadow: 1px 0px #fbf7f7;
+    color: white;
+    width: 450px;
+    height: 200px;
+    /* z-index: 9999; */
+    margin-left: 20%;
+    padding-top: 20px ;
+    padding:30px 30px;
+}
+.about_project2{
+    background-color: rgb(0, 54, 101);
+    text-shadow: 1px 0px #fbf7f7;
+    color: white;
+    width: 450px;
+    height: 200px;
+    /* z-index: 9999; */
+    margin-left: 15%;
+    padding-top: 20px ;
+    padding:30px 30px;
+}
+.parent_project2{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.project_img_two{
+    height: 250px;
+    width: 500px;
+    margin-top: 19%;
+    margin-left: -45%;
+    /* z-index: -1; */
+    filter: grayscale(100%);
+}
+.project_img_two:hover{
+    filter: grayscale(0%);
+    cursor:pointer;
+}
+.nmn{
+    background-color: #9932cc;
+    width: 50px !important;
+}
+
+@media screen and (max-width: 480px) {
+    .parent_project2{
+        width: 100%;
+        /* font-size: 25px; */
+    }
+    .parent_project{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    .parent_project2{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .project_img_one{
+        width: 80%;
+
+        height: 70%;
+        margin-left: auto;
+        /* display: none; */
+    }
+    .project_img_two{
+        width: 80%;
+
+        height: 70%;
+        margin-left: auto;
+        /* display: none; */
+    }
+    .project_name{
+        font-size: 20px;
+    }
+    .project_heading{
+        /* width: 100%; */
+        display: block;
+        margin-left: 20%;
+        margin-top: 15%;
+        margin-bottom: 30px;
+        /* margin-left:auto; */
+        /* margin-right: auto; */
+        width: 280px;
+        font-size: 25px;
+    }
+    /* .project_heading */
+    
+    .about_project{
+        margin-left: 10%;
+        width: 80%;
+        font-size: 14px;
+        
+        /* display: none; */
+    }
+    .about_project2{
+        margin-left:10%;
+        width: 80%;
+        font-size: 14px;
+        /* display: none; */
+    }
+    .tect_used{
+        /* display: none; */
+        font-size: 12px;
+        margin-left: 20%; 
+        margin-top: 3%;
+    }
+    .tect_used2{
+        /* display: none; */
+           /* display: none; */
+           font-size: 12px;
+           margin-left: 20%; 
+           margin-top: 3%;
+    }
+    .project_name2{
+        font-size: 25px;
+    }
+    
+}

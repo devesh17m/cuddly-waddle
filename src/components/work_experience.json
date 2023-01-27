@@ -1,0 +1,27 @@
+{
+    "career": [
+        {   "id":1,  
+            "company": "IDR research and development pvt ltd.",
+            "title": "Full Stack Developer",
+            "about": "Blockchain developers enable secure digital transactions by creating systems to record and store blockchain data in a way that prevents changes or hacks. They design secure blockchain technologies, develop application features and interfaces, and maintain client and server-side applications",
+            "skills": "Building strong base in programming languages will be helpful when the computer application IT graduates do coding and software development activities. Having good time management skills and numerical ability will be essential skills to have a bright career in this field",
+            "degree":"no, but it is good to have",
+            "prerequesite1":"Get a brief idea about cryptocurrencies",
+            "prerequesite2":"Learn about smart contracts and Soldity"
+        ,"link":"https://onlinecourses.swayam2.ac.in/aic21_ge01/preview"
+        },
+        {   "id":2,
+            "company": "Homians",
+            "title": "Frontend Developer",
+            "about": "As a mechanical engineer, you will be involved in the design, development, manufacture, and maintenance of mechanical products. And you would also assist in the installations and final commissioning of different projects on the site.",
+            "skills": "Mechanical engineers need to be comfortable using math especially calculus and statistics in order to solve problems should have good oral communication skills and confidence in dealing with a range of people including clients, contractors, designers, directors and plant operators.",
+            "degree":"Yes",
+            "prerequesite1":"complete a four-year course in Bachelor in Technology (B. Tech) in mechanical engineering",
+            "prerequesite2":"start working on projects"
+        ,"link":"https://onlinecourses.nptel.ac.in/noc20_me46/preview"
+        }
+        
+        
+
+    ]
+}

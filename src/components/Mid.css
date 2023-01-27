@@ -32,7 +32,7 @@
     margin-left: -32%;
 }
 .right{
-    margin-top: -30px;
+    margin-top: -31px;
 }
 .connect{
     color: rgb(255, 255, 255);
@@ -43,14 +43,15 @@
     margin-left: -25%;
     margin-top: 5%;
     background-color: rgb(51, 65, 176);
-    box-shadow: inset 0 0 0 0 #090909;
-  -webkit-transition: ease-out 0.4s;
+    box-shadow: inset 0 0 0 0 #201f1f;
+  -webkit-transition: ease-out 2.9s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
 }
 .k{
     color: aliceblue;
     position: absolute;
+    position: fixed;
     /* margin-left: -20%; */
     display: flex;
     flex-direction: column;
@@ -80,6 +81,7 @@
     box-shadow: inset 0 100px 0 0 #000000;
     color: white;
     border-color: aliceblue;
+    
 }
 *{
     background-color: rgb(0, 0, 0);
@@ -121,6 +123,7 @@ a:visited{
     }
     .k{
         color: aliceblue;
+        position: fixed;
     }
     .jk{
         text-decoration: none;
@@ -128,7 +131,7 @@ a:visited{
         /* background-color: #54a3f8; */
     }
     a:visited{
-        color: aliceblue;
+        color: rgb(255, 255, 255);
         /* background-color: #54a3f8; */
     }
     .name{
@@ -138,7 +141,7 @@ a:visited{
     }
     .name_top{
         font-size: 1rem;
-        margin-left: -37%;
+        margin-left: -28%;
     }
     .about{
         margin-top: 5%;
@@ -158,10 +161,10 @@ a:visited{
         margin-left: -20%;
         margin-top: 5%;
         background-color: rgb(51, 65, 176);
+        -webkit-transition: ease-out 0.4s;
         box-shadow: inset 0 0 0 0 #090909;
-      -webkit-transition: ease-out 0.4s;
-      -moz-transition: ease-out 0.4s;
-      transition: ease-out 0.4s;
+        -moz-transition: ease-out 0.4s;
+        transition: ease-out 0.4s;
     }
     .connect:hover{
         box-shadow: inset 0 100px 0 0 #000000;
